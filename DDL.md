@@ -1,4 +1,4 @@
-# `DDL`: Data Definition Language
+# `DDL` : Data Definition Language
 
 ### `CREATE`
 ```sql
