@@ -40,9 +40,11 @@ In Snowflakes server are considerd as credit per hour.
 - Prevents queries from waiting in queues rather it starts additional clusters for running the queries.
 - As soon as the system detects that there are more queries that are waiting in the queue it starts another cluster.
 - If the cluster is idle it checks the queue for 2 to 3 times and then shut down the clusters.
+- Focus on `performance`
 
 ### `Economy`
 
 - Conserve server | credits by keeping the running cluster fully loaded and keep the queries to wait in queue for particular time.
 - Due to waiting in queue it takes longer time to complete.
 - Check the queue 5 to 6 times before closing the cluster.
+- Focus on `conservation`
