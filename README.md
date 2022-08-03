@@ -1,7 +1,7 @@
 # `Snowflake`
 Get the most out of data
 
-### Classic Console Interface:
+### `Classic Console` Interface:
 
 ### `Databases`
 
@@ -15,6 +15,8 @@ Get the most out of data
 Place were we write all the queries.
 
 # `Snowsight` 
+
+### New Interface with auto suggestions and auto complete features.
 
 ### `Worksheets`
 
