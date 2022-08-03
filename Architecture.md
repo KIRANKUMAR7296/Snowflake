@@ -32,3 +32,17 @@ In Snowflakes server are considerd as credit per hour.
 ## `Cloud Services`
 - Third layer were all the management happens.
 - Managing infrastructure, access allocation, security, query optimization, updating metadata, etc
+
+## Scaling Policy
+
+### `Standard` : Default
+
+- Prevents queries from waiting in queues rather it starts additional clusters for running the queries.
+- As soon as the system detects that there are more queries that are waiting in the queue it starts another cluster.
+- If the cluster is idle it checks for 2 to 3 times and then shut down the clusters.
+
+### `Economy`
+
+- Conserve server | credits by keeping the running cluster fully loaded and keep the queries to wait in queue for particular time.
+- Due to waiting in queue it takes longer time to complete.
+- 
