@@ -4,6 +4,7 @@
 
 - Data warehouse `consolidates` and `integrates` different data sources and use them for `reporting` and `data analysis`
 - Basically is a database that combines different types of data (Structured, unstructured, relational) from different data sources.
+- Data is extracted from different data sources, data is transformed (clean and improve the quality) and then loaded in the warehouse.
 ```SQL
 DROP WAREHOUSE IF EXISTS WarehouseName
 
