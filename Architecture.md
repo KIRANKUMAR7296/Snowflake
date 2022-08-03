@@ -47,4 +47,4 @@ In Snowflakes server are considerd as credit per hour.
 - Conserve server | credits by keeping the running cluster fully loaded and keep the queries to wait in queue for particular time.
 - Due to waiting in queue it takes longer time to complete.
 - Check the queue 5 to 6 times before closing the cluster.
-- Focus on `conservation`
+- Focus on `conservation` of `consumption`
