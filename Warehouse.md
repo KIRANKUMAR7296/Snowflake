@@ -1,5 +1,9 @@
 # Warehouse
 
+### What is Data Warehouse?
+
+- Purpose of a data warehouse is to `consolidate` and `integrate` different data sources and use them for `reporting` and `data analysis`
+
 ```SQL
 DROP WAREHOUSE IF EXISTS WarehouseName
 
