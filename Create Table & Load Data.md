@@ -16,7 +16,7 @@ CREATE TABLE DatabaseName.SchemaName.TableName (
 # Check whether the table ie empty:
 SELECT * FROM DatabaseName.SchemaName.TableName;
 
-# Loading the data from S3 bucket:
+# Loading the data from publically available S3 bucket:
 COPY INTO DatabaseName.SchemaName.TableName
 FROM s3://bucketsnowflake/data.csv
 file_format = (type = csv field_delimiter = ',', skip_header = 1);
