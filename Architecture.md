@@ -21,7 +21,9 @@ In Snowflakes server are considerd as credit per hour.
 3. `M`: 4 servers
 4. `L`: 8 servers
 5. `XL`: 16 servers
-6. `4XL`: 128 servers (Most expensive)
+6. `2XL`: 32 servers
+7. `3XL`: 64 servers
+8. `4XL`: 128 servers (Most expensive)
 
 ### Multi Clustering (Brain)
 - `Multi clustering` is possible in `enterprise` versions (Especially designed for small or large scale organizations)
