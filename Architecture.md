@@ -14,6 +14,8 @@
 
 ### Virtual Warehouse Sizes
 
+In Snowflakes server are considerd as credit per hour.
+
 1. `XS`: Only 1 server of small size for Simple queries (If we run complex query it will take more time to execute)
 2. `S`: 2 servers
 3. `M`: 4 servers
