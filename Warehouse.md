@@ -1,6 +1,6 @@
 # Warehouse
 
-```mysql
+```SQL
 DROP WAREHOUSE IF EXISTS WarehouseName
 
 CREATE WAREHOUSE IF NOT EXISTS WarehouseName
