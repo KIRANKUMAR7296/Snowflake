@@ -59,5 +59,15 @@ SELECT * FROM DatabaseName.SchemaName.TableName
 -- Copy from stage to table:
 COPY INTO DatabaseName.SchemaName.TableName
 FROM @Manage_DB.External_Stages.AWS_Stage
-file_format = (type=csv field_delimiter=',' skip_header=1);
+file_format = (type=csv field_delimiter=',' skip_header=1)
+files = ('OrderDetails.csv'); -- pattern = '*.csv*'
+```
+
+### Transforming using SELECT statement
+
+```sql
+COPY INTO DatabaseName.SchemaName.TableName 
+FROM (SELECT S.C1, S.C2 FROM @MANAGE_DB.EXTERNAL_STAGES.AWS_STAGE S)
+file_format = (type=csv field_delimiter=',' skip_header=1)
+files = ('OrderDetails.csv'); 
 ```
