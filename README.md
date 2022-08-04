@@ -27,3 +27,10 @@ Place were we write all the queries.
 ### `Compute`
 
 ### `Account`
+
+## Snowflake `Editions`
+
+1. `Standard` : Introductory level for learning and handson.
+2. `Enterprise` : Additional features for the need of large scale enterprises.
+3. `Business Critical`: High level of data protection with extremely sensitive data.
+4. `Virtual Private`: Highest level of security.
