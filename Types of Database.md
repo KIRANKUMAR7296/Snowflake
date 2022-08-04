@@ -25,3 +25,9 @@
 
 ### Database `Queries`
 - Queries are requests made to the DBMS for specific information in the form of tables or views.
+
+### `Surrogate` Key
+- Surrogate key is a primary key that has no mapping to the real world.
+
+### `Natural` Key
+- Natural key is a primary key that has a mapping to the real world (Social Security Number in U.S.A for each citizens)
