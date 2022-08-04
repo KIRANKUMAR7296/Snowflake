@@ -6,10 +6,13 @@
 - A unique key identifier for each row.
 
 ### Non Relational Database (noSQL)
-- Organize data in anything but a traditional table.
+- Organize data in traditional tables using other data structures.
 - Key value stores (Dictionary or Hash)
-- Documents (JSON, XML, etc)
-- Grpahs
+- Documents (`JSON`, `XML`, `BLOB`, etc)
+- `Graphs` (Relational `nodes` and `edges`)
+- `mongoDB`, `dynamoDB,` `apache cassandra`, `firebase`, etc
+- There is no standard language for Non Relational Database.
+- Perform there own language for performing `C.R.U.D` and `administrative` operations on the database.
 
 ### Relational Database Management System (RDBMS)
 - Help us to create and maintain a relational database.
@@ -19,3 +22,6 @@
 - Standardized langauge for interacting with `RDBMS`
 - Used to perform `C.R.U.D` operations,as well as administrative tasks (User management, security, backup, upgrades, etc)
 - Use to define database objects i.e `Schemas`, `Tables`, `Views` and `Structures`
+
+### Database `Queries`
+- Queries are requests made to the DBMS for specific information in the form of tables or views.
