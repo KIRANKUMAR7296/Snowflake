@@ -7,7 +7,7 @@
 
 ### Non Relational Database (noSQL)
 - Organize data in anything but a traditional table.
-- Key value stores (Dictionary)
+- Key value stores (Dictionary or Hash)
 - Documents (JSON, XML, etc)
 - Grpahs
 
