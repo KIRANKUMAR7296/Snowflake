@@ -13,5 +13,5 @@
 
 ```sql
 -- Namespace:
-`DatabaseName.SchemaName.TableName` or `DatabaseName.SchemaName.ViewName`
+DatabaseName.SchemaName.TableName or DatabaseName.SchemaName.ViewName
 ```
