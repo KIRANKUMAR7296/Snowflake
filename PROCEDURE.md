@@ -31,7 +31,7 @@ END;
 CALL DatabaseName.SchemaName.ProcedureName(7296)
 ```
 
-### `RETURN TABLE`
+### `RETURN TABLE Record`
 
 ```sql
 CREATE OR REPLACE PROCEDURE DatabaseName.SchemaName.ProcedureName(EmployeeID NUMBER)
@@ -42,8 +42,8 @@ LastName VARCHAR(16777216),
 Designation VARCHAR(16777216),
 Manager VARCHAR(16777216),
 HiredDate VARCHAR(16777216),
-Salary NUMBER(16777216),
-DepartmentID NUMBER(16777216),
+Salary NUMBER(7,2),
+DepartmentID NUMBER(7,2)
 )
 LANGUAGE SQL
 AS
@@ -55,4 +55,28 @@ RETURN TABLE(EmployeeRecord);
 END;
 
 CALL DatabaseName.SchemaName.ProcedureName(7296)
+```
+
+### `RETURN` entire `TABLE`
+
+```sql
+CREATE OR REPLACE PROCEDURE DatabaseName.SchemaName.ProcedureName()
+RETURNS TABLE(
+EmployeeCode NUMBER(38,0),
+FirstName VARCHAR(16777216),
+LastName VARCHAR(16777216),
+Designation VARCHAR(16777216),
+Manager VARCHAR(16777216),
+HiredDate VARCHAR(16777216),
+Salary NUMBER(7,2),
+DepartmentID NUMBER(7,2)
+)
+LANGUAGE SQL
+AS
+DECLARE Query RESULTSET = (SELECT * FROM Employee);
+BEGIN
+RETURN TABLE(Query);
+END;
+
+CALL DatabaseName.SchemaName.ProcedureName()
 ```
