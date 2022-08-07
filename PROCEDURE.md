@@ -111,3 +111,35 @@ END;
 
 CALL CreateTableCopy('Demand', 'AMRDemand', 'Region="AMR"')
 ```
+
+### `CREATE` a copy of `TABLE` + `COUNT` Rows and Capture Error Message
+
+```sql
+CREATE OR REPLACE PROCEDURE DatabaseName.SchemaName.CreateTableCopy(SourceTable VARCHAR, TargetTable VARCHAR, WhereClause VARCHAR)
+RETURNS TABLE(Records NUMBER)
+LANGUAGE SQL
+AS 
+DECLARE
+
+-- Create a copy of existing table:
+CreateCommand VARCHAR := 'CREATE OR REPLACE TABLE ' || :TargetTable || ' LIKE ' || :SourceTable;
+-- Insert values from the existing table:
+InsertCommand VARCHAR := 'INSERT INTO ' || :TargetTable || ' SELECT * FROM ' || :SourceTable || ' WHERE ' || :WhereClause;
+-- Count the total rows in new table:
+RowCount RESULTSET;
+ReadCount VARCHAR := 'SELECT COUNT(*) FROM ' || :TargetTable;
+-- Error Message:
+ErrorMessage RESULTSET;
+
+BEGIN
+EXECUTE IMMEDIATE : CreateCommand;
+EXECUTE IMMEDIATE : InsertCommand;
+RowCount := (EXECUTE IMMEDIATE : ReadCount);
+RETURN TABLE(RowCount);
+
+EXCEPTION
+WHEN other THEN NULL;
+END;
+
+CALL CreateTableCopy('Demand', 'AMRDemand', 'Region="AMR"')
+```
