@@ -9,7 +9,7 @@ DECLARE
 Age NUMBER;
 BEGIN
 Age := DATEDIFF(YEAR, DateofBirth, CURRENT_DATE());
-RETURN 'Your Age is :' || Age::VARCHAR;
+RETURN 'Your Age is :' || Age::VARCHAR; -- Casting data type of Age i.e NUMBER to VARCHAR.
 END;
 
 CALL DatabaseName.SchemaName.ProcedureName('1996-02-07')
