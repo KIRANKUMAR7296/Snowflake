@@ -18,9 +18,9 @@ Place were we write all the queries.
 
 ### New Interface with auto suggestions and auto complete features.
 
-### `Worksheets`
+### `Worksheets` : Query 
 
-### `Dashboards`
+### `Dashboards` 
 
 ### `Data`
 
