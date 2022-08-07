@@ -95,9 +95,9 @@ AS
 DECLARE
 
 -- Create a copy of existing table:
-CreateCommand VARCHAR = 'CREATE OR REPLACE TABLE ' || TargetTable || ' LIKE ' || SourceTable;
+CreateCommand VARCHAR = 'CREATE OR REPLACE TABLE ' || :TargetTable || ' LIKE ' || :SourceTable;
 -- Insert values from the existing table:
-InsertCommand VARCHAR = 'INSERT INTO ' || TargetTable || ' SELECT * FROM ' || SourceTable || ' WHERE ' || WhereClause;
+InsertCommand VARCHAR = 'INSERT INTO ' || :TargetTable || ' SELECT * FROM ' || :SourceTable || ' WHERE ' || :WhereClause;
 
 BEGIN
 EXECUTE IMMEDIATE : CreateCommand;
