@@ -9,10 +9,9 @@ Get the most out of data
 
 ### `Data Marketplace`
 
-### `Warehouses` : Query
+### `Warehouses` 
 
-### `Worksheets`
-Place were we write all the queries.
+### `Worksheets` : Query
 
 # `Snowsight` 
 
