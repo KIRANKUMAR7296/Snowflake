@@ -9,7 +9,7 @@ Get the most out of data
 
 ### `Data Marketplace`
 
-### `Warehouses`
+### `Warehouses` : Query
 
 ### `Worksheets`
 Place were we write all the queries.
