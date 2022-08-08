@@ -31,7 +31,7 @@
 
 ### `Worksheets` : Query 
 
-### `Dashboards` 
+### `Dashboards` : User can add title, table, view, tiles  like Tableau and Power BI Dashboards. 
 
 ### `Data` ( Databases in Classic Console )
 
