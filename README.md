@@ -9,7 +9,7 @@
 - Used by SQL Analysts, ETL Processing, Data Science, BI and Analytics Tools.
 - Analytics and reports, fast read, column based storage, aggregate SQL queries, follows star schema.
 
-### `Classic Console` Interface:
+# `Classic Console` Interface:
 
 ### `Databases`
 
