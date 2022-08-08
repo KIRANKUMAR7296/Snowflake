@@ -8,6 +8,8 @@
 
 ### `Schema` : A logical grouping of database objects.
 
+Each schema belongs to single database.
+
 `Database Objects` : Table | External Table | View | Stored Procedure | Sequence | Stage | File Format | Pipe | Stream | Task | UDF
 
 ## `Storage`
