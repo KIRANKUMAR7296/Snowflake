@@ -23,7 +23,11 @@
 
 # `Snowsight` 
 
-### New Interface with auto suggestions and auto complete features.
+### New Interface with new features.
+1. Full account search
+2. SQL autocomplete
+3. Chart visualizations
+4. Dashboard usage
 
 ### `Worksheets` : Query 
 
@@ -41,3 +45,9 @@
 2. `Enterprise` : Additional features for the need of large scale enterprises.
 3. `Business Critical`: High level of data protection with extremely sensitive data.
 4. `Virtual Private`: Highest level of security.
+
+### `SnowSQL` : Python based scripts and CLI 
+
+### `Snowpipe` : Streaming ingest
+
+### `Snowpark` : API for AWS ( Driver and SDK )
