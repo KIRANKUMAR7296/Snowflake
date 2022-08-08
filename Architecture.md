@@ -1,5 +1,15 @@
 # Snowflake Architecture
 
+`Account` > `Database` > `Schema` > `Table`
+
+### Account:
+
+User | Role | Warehouse | Resource Monitor | Integration | Database | Schema
+
+### Schema : A logical grouping of database objects.
+
+Database Objects: Table | External Table | View | Stored Procedure | Sequence | Stage | File Format | Pipe | Stream | Task | UDF
+
 ## `Storage`
 - First layer is storage ( Databases )
 - Data is not stored in the Snowflake itself, It is stored in AWS buckets, GCP or Microsoft Azure.
