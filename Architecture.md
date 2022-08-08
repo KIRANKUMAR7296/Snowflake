@@ -2,13 +2,13 @@
 
 `Account` > `Database` > `Schema` > `Table`
 
-### Account:
+### `Account`
 
-User | Role | Warehouse | Resource Monitor | Integration | Database | Schema
+`Hierarchy` : User | Role | Warehouse | Resource Monitor | Integration | Database | Schema
 
-### Schema : A logical grouping of database objects.
+### `Schema` : A logical grouping of database objects.
 
-Database Objects: Table | External Table | View | Stored Procedure | Sequence | Stage | File Format | Pipe | Stream | Task | UDF
+`Database Objects` : Table | External Table | View | Stored Procedure | Sequence | Stage | File Format | Pipe | Stream | Task | UDF
 
 ## `Storage`
 - First layer is storage ( Databases )
