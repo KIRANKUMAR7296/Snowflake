@@ -19,6 +19,14 @@ Each schema belongs to single database.
 - Data is fetched using the queries and we also receive the data in form of blobs.
 - Efficient storage and faster querying capability.
 
+### Snowflake storage
+
+1. On cloud bucket ( AWS S3 Bucket, GCP Bucket ), blob ( Azure ) or file storage.
+2. Scalable and available 24 x 7
+3. Encrypted
+4. Compressed
+5. Autopartitoned ( Help in query and storage efficiency automatically )
+
 ## `Query Processing` (Muscle)
 - Second layer where the queries are processed.
 - `Virtual Warehouses` are `compute` resource that process all our queries and operations that are performed.
