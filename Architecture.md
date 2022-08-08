@@ -1,15 +1,15 @@
 # Snowflake Architecture
 
 ## `Storage`
-- First layer is storage (All the data is stored)
+- First layer is storage ( Databases )
 - Data is not stored in the Snowflake itself, It is stored in AWS buckets, GCP or Microsoft Azure.
 - Data is stored in `Hybrid Columnar Storage` called as `blobs` in compressed form.
 - Data is fetched using the queries and we also receive the data in form of blobs.
 - Efficient storage and faster querying capability.
 
-## Query Processing (Muscle)
+## `Query Processing` (Muscle)
 - Second layer where the queries are processed.
-- Virtual warehouses are `compute` resource that process all our queries and operations that are performed.
+- `Virtual Warehouses` are `compute` resource that process all our queries and operations that are performed.
 - Also performs massive parallel processing (Multiple users can run seperate worksheets at same time.)
 
 ### Virtual Warehouse Sizes
