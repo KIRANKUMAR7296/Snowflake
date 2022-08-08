@@ -2,7 +2,7 @@
 
 `Account` > `Database` > `Schema` > `Table`
 
-### `Account`
+### `Account` Object Hierarchy
 
 `Hierarchy` : User | Role | Warehouse | Resource Monitor | Integration | Database | Schema
 
