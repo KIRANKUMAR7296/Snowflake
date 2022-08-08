@@ -1,5 +1,13 @@
 # `Snowflake`
-Get the most out of data
+
+- `Snowflake` is a cloud native SaaS data warehouse and platform.
+- Store files and data in tables.
+- `Cloud Native : @SnowflakeDB can run on multiple popular clouds like `AWS`, `GCP` and `Azure`
+- `Cloud Native SaaS` : Provide web interface and API to connect serverless, zero install and scalable service.
+- Provide 2 rich web user interfaces : `Classic console` and `Snowsight`
+- Query, extract, transform, load and visualize data.
+- Used by SQL Analysts, ETL Processing, Data Science, BI and Analytics Tools.
+- Analytics and reports, fast read, column based storage, aggregate SQL queries, follows star schema.
 
 ### `Classic Console` Interface:
 
@@ -9,7 +17,7 @@ Get the most out of data
 
 ### `Data Marketplace`
 
-### `Warehouses` 
+### `Warehouses` : 
 
 ### `Worksheets` : Query
 
